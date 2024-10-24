@@ -31,3 +31,29 @@ install.packages(c("shiny", "shinydashboard", "shinyWidgets", "readxl", "readr",
                    "dygraphs", "dplyr", "DT", "TTR", "plotly", "xts", "lubridate", "stringr", 
                    "corrplot", "prophet", "tidyr", "tibble", "reshape2", "jsonlite", "treemap", 
                    "scales", "timetk", "tidyquant", "forecast", "forcats", "tidyverse", "keras"))
+````````
+
+
+### 2. Chạy ứng dụng
+Sau khi cài đặt đầy đủ các gói, bạn có thể chạy ứng dụng bằng lệnh:
+```shiny::runApp("path_to_your_project")
+````````
+### 📉 Phân tích chỉ số và dự báo
+## 📈 Chỉ số chứng khoán
+-**SMA**: Trung bình động đơn giản (Simple Moving Average).
+-**MACD**: Phân kỳ hội tụ trung bình động (Moving Average Convergence Divergence).
+-**RSI**: Chỉ số sức mạnh tương đối (Relative Strength Index).
+-**Bollinger Bands**: Dải Bollinger để phân tích biến động giá.
+## 🔮 Dự báo xu hướng
+-**Mô hình ARIMA**: Dự báo thời gian với mô hình tích hợp trung bình động tự hồi quy.
+-**Mô hình DNN**: Mô hình mạng nơ-ron sâu cho dự báo xu hướng giá cổ phiếu dài hạn.
+## 🏛️ Mô hình tài chính
+-**CAPM**: Mô hình Định giá Tài sản Vốn (Capital Asset Pricing Model) để tính toán rủi ro và lợi nhuận của danh mục cổ phiếu.
+-**Dòng tiền**: Phân tích dòng tiền hoạt động, đầu tư và tài chính.
+## 🌐 Demo
+Một video demo ngắn giới thiệu về các chức năng chính của ứng dụng có thể được xem [tại đây](D__R - Shiny 2024-10-24 21-33-47.mp4).
+## 📚 Tài liệu tham khảo
+Tài liệu Shiny
+Hướng dẫn Tidyquant
+## 🏗️ Tác giả
+Ứng dụng được phát triển bởi DuongTran29423 với sự hỗ trợ của các thư viện phân tích tài chính mạnh mẽ như tidyquant và forecast.
